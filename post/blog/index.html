@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Blog // My New Hugo Site</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.68.3" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/hsoul.github.io/css/main.min.88e7083eff65effb7485b6e6f38d10afbec25093a6fac42d734ce9024d3defbd.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Blog"/>
+<meta name="twitter:description" content="m10c theme A Hugo minimalistic theme for bloggers
+Getting started Installation Create a new Hugo site:
+$ hugo new site [path] Clone this repository into themes/ directory:
+$ cd [path] $ git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c Add this line in the config.toml file:
+theme = &#34;m10c&#34; Configuration In your config.toml file, define the following variables in params:
+ author: Name of the author description: Short description of the author avatar: Path of file containing the author avatar image menu_item_separator: Separator between each menu item."/>
+
+    <meta property="og:title" content="Blog" />
+<meta property="og:description" content="m10c theme A Hugo minimalistic theme for bloggers
+Getting started Installation Create a new Hugo site:
+$ hugo new site [path] Clone this repository into themes/ directory:
+$ cd [path] $ git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c Add this line in the config.toml file:
+theme = &#34;m10c&#34; Configuration In your config.toml file, define the following variables in params:
+ author: Name of the author description: Short description of the author avatar: Path of file containing the author avatar image menu_item_separator: Separator between each menu item." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="hsoul.github.io/post/blog/" />
+<meta property="article:published_time" content="2020-10-19T00:58:57+08:00" />
+<meta property="article:modified_time" content="2020-10-19T00:58:57+08:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="hsoul.github.io/"><img class="app-header-avatar" src="/hsoul.github.io/avatar.jpg" alt="John Doe" /></a>
+      <h1>My New Hugo Site</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium.</p>
+      <div class="app-header-social">
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Blog</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Oct 19, 2020
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          2 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <h1 id="m10c-theme">m10c theme</h1>
+<p><img src="https://github.com/vaga/hugo-theme-m10c/blob/master/images/cover.png" alt="Intro"></p>
+<p>A Hugo minimalistic theme for bloggers</p>
+<h2 id="getting-started">Getting started</h2>
+<h3 id="installation">Installation</h3>
+<p>Create a new Hugo site:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ hugo new site <span style="color:#f92672">[</span>path<span style="color:#f92672">]</span>
+</code></pre></div><p>Clone this repository into <code>themes/</code> directory:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ cd <span style="color:#f92672">[</span>path<span style="color:#f92672">]</span>
+$ git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c
+</code></pre></div><p>Add this line  in the <code>config.toml</code> file:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#a6e22e">theme</span> = <span style="color:#e6db74">&#34;m10c&#34;</span>
+</code></pre></div><h3 id="configuration">Configuration</h3>
+<p>In your <code>config.toml</code> file, define the following variables in <code>params</code>:</p>
+<ul>
+<li><code>author</code>: Name of the author</li>
+<li><code>description</code>: Short description of the author</li>
+<li><code>avatar</code>: Path of file containing the author avatar image</li>
+<li><code>menu_item_separator</code>: Separator between each menu item. HTML allowed (default: &quot; - &ldquo;)</li>
+</ul>
+<p>To add a menu item, add the following lines in <code>menu</code>:</p>
+<pre><code>[[menu.main]]
+  identifier = &quot;tags&quot;
+  name = &quot;Tags&quot;
+  url = &quot;/tags/&quot;
+</code></pre><p><a href="https://gohugo.io/content-management/menus/#readout">Read Hugo documentations</a> for more informations about menu</p>
+<p>To add a social link, add the following lines in <code>params</code>:</p>
+<pre><code>[[params.social]]
+  name = &quot;github&quot;
+  url = &quot;https://github.com/vaga&quot;
+</code></pre><p>To change theme colors, add the following lines in <code>params</code>:</p>
+<pre><code>[params.style]
+  darkestColor = &quot;#d35050&quot;
+  darkColor = &quot;#212121&quot;
+  lightColor = &quot;#f5e3e0&quot;
+  lightestColor = &quot;#f5f5f5&quot;
+  primaryColor = &quot;#fff&quot;
+</code></pre><p>If you want the above theme colors, you can see the <a href="/exampleSite/config.toml">exampleSite/config.toml</a> file.</p>
+<h3 id="styling">Styling</h3>
+<p>To override styles using scss, add a file called <code>_extra.scss</code> to <code>{your site directory}/assets/css/</code></p>
+<p>Note: Hugo releases come in two versions, <code>hugo</code> and <code>hugo_extended</code>. You need <code>hugo_extended</code> to automatically compile your scss.</p>
+<h2 id="license">License</h2>
+<p>This theme is released under the <a href="/LICENSE.md"><strong>MIT</strong></a> License.</p>
+<h2 id="acknowledgements">Acknowledgements</h2>
+<ul>
+<li><a href="https://feathericons.com/">feather</a> - <a href="https://github.com/feathericons/feather/blob/master/LICENSE">MIT</a></li>
+</ul>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
